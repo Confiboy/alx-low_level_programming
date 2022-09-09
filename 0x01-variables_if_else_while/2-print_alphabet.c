@@ -3,11 +3,10 @@
 #include <time.h>
 
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
-
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char love;
@@ -16,4 +15,4 @@ int main(void)
 		putchar(love);
 	putchar('\n');
 	return (0);
-}}
+}
