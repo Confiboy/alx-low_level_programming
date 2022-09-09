@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+ *  * main - Entry point
+ *   *
+ *    * Return: Always 0 (Success)
+ *     */
+
 int main(void)
 {
-	char low;
+	char love;
 
-	for (low = 'a'; low <= 'z'
-; low++)
-		putchar(low);
-                printf("\n");
-
+	for (love = 'a'; love <= 'z'; love++)
+		putchar(love);
+	putchar('\n');
 	return (0);
-}
+}}
