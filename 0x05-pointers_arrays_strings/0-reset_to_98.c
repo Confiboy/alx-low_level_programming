@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * reset 0-reset_to_98.c -reset the value of the given integer to 98
- * Qn: Parameter
+ * reset_to_98 - resets the value of given integer to 98
+ * @n: parameter
  * Return : nothing
  */
 
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
-	n=98;
+	*n = 98;
 }
