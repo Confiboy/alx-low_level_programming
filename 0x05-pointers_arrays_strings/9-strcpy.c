@@ -3,7 +3,7 @@
 /**
  * _strcpy - print reverse characters.
  * @dest: Array
- * @src: -Number of array
+ * @src: - Number of array
  * Return: Always 0.
  */
 
