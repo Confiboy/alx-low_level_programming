@@ -2,7 +2,7 @@
 
 /**
  * print_rev - print reverse characters.
- * @s: validate tge character
+ * @s: validate the character
  * Return: Always 0.
  */
 
