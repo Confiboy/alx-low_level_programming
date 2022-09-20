@@ -4,7 +4,7 @@
 
 /**
  * print_rev - print reverse characters.
- * @s: validate the character
+ * @str: validate the character
  * Return: Always 0.
  */
 
