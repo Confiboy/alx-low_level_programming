@@ -3,7 +3,7 @@
 /**
  * _strcat - concatenates @src to @dest
  * @src: the source string to append to @dest
- * @dest: the destination string to be concatenated upon
+ * @dest: the destiation string to be concatenated upon
  * Return:pointer to the resulting string
  * _strcat - concatenates two strings
  * @dest: input value
@@ -24,14 +24,24 @@ char *_strcat(char *dest, char *src)
 	{
 		i++;
 		j++;
+
+		i = 0;
+		while (dest[i] != '\0')
+		{
+			i++;
+		}
+		j = 0;
+		while (src[j] != '\0')
+		{
+			dest[i] = src[j];
+			i++;
+			j++;
+		}
+
+		while (dest[index++])
+			dest_len++;
+		for (index = 0; src[index]; index++)
+			dest[dest_len++] = src[index];
+		dest[i] = '\0';
+		return (dest);
 	}
-
-	while (dest[index++])
-	{
-		dest_len++;
-	for (index = 0; src[index]; index++)
-		dest[dest_len++] = src[index];
-	dest[i] = '\0';
-
-	return (dest);
-}
